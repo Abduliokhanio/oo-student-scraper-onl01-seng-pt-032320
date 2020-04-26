@@ -6,8 +6,8 @@ class Student
   @@all = []
 
   def initialize(student_hash)
+    binding.pry
     @student_hash = student_hash
-
   end
 
   def self.create_from_collection(students_array)
