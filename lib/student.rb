@@ -24,9 +24,10 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    puts ''
-    binding.pry
-  end
+      attributes_hash.each do |key,value|
+        self.send(&quot;#{key}=&quot;, value)
+      end
+    end
 
   def self.all
 
