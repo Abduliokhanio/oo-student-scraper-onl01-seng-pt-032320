@@ -19,10 +19,10 @@ class Student
 
     while epoc < students_array.length
       Student.new(students_array[0])
-      
-      epoc += 1 
-    end 
-    
+
+      epoc += 1
+    end
+
   end
 
   def add_student_attributes(attributes_hash)
