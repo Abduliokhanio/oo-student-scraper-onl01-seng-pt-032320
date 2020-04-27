@@ -16,17 +16,16 @@ class Student
   def self.create_from_collection(students_array)
 
     epoc = 0
-
     while epoc < students_array.length
       Student.new(students_array[epoc])
-
       epoc += 1
     end
 
   end
 
   def add_student_attributes(attributes_hash)
-
+    puts ''
+    binding.pry
   end
 
   def self.all
