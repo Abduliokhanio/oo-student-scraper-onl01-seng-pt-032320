@@ -18,7 +18,7 @@ class Student
     epoc = 0
 
     while epoc < students_array.length
-      Student.new(students_array[0])
+      Student.new(students_array[epoc])
 
       epoc += 1
     end
